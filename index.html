@@ -145,11 +145,13 @@
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300&text=VIDEOPLACEHOLDER">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
-        <div class="span5 actions">
+        <!--new 'actions' div for buttons. Also corrected row-fluid.-->
+       <div class="span5 actions">
+          <div class="row-fluid">           
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <div class="linediv-l">
                 <h3>0</h3> <p>backers</p>
@@ -167,26 +169,37 @@
               </div>
             </div>
           </div>
+          <div class="row-fluid">
           <div class="span10 offset1">
             <div class="thermometer progress active">
               <div class="bar bar-success" style="width: 0%;"></div>
               <div class="bar bar-warning" style="width:100%;"></div>
             </div>
           </div>
+          </div>
+          <div class="row-fluid">  
           <div class="span6 offset3 order">
+           <!-- standard buttons--> 
+           <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+          </div>
+          <div class="row-fluid">
           <div class="span8 offset2 social">
+           <!-- social buttons not in bootstrap -->
+           <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+          </div>
+        </div>
         </div>
       </div>
 
 <!--beginning of marketing copy-->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://i.imgur.com/WVPdl44.jpg">
+          <img class="img-polaroid" src="http://i.imgur.com/WVPdl44.jpg" alt="Placeholder">
         </div>
         <div class="span5 copy">
           <p>
@@ -213,7 +226,7 @@
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://i.imgur.com/QQmjSTH.jpg">
+          <img class="img-polaroid" src="http://i.imgur.com/QQmjSTH.jpg" alt="Placeholder">
         </div>
       </div>
 <!-- end of marketing copy-->
